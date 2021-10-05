@@ -16,7 +16,7 @@ public class Module
     /**
      * Constructor for objects of class Module
      */
-    public Module()
+    public Module(int code, String title, int value)
     {
         // initialise instance variables - when a certain variable is called
         // it will return a particular objects data
