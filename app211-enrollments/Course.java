@@ -27,6 +27,11 @@ public class Course
         this.title = title;
     }
 
+    //Adds module on to a course
+    public void addModule(Module module)
+    {
+        this.module = module;
+    }
     
     /**
      * Print the details of the course, the list
