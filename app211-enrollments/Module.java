@@ -9,14 +9,14 @@ public class Module
 {
     // instance variables - variables to store the code, title and credit 
     // value of the module
-    private int code;
+    private String code;
     private String title;
     private int value;
 
     /**
      * Constructor for objects of class Module
      */
-    public Module(int code, String title, int value)
+    public Module(String code, String title, int value)
     {
         // initialise instance variables - when a certain variable is called
         // it will return a particular objects data
@@ -31,7 +31,7 @@ public class Module
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int getCode()
+    public String getCode()
     {
         return code;
     }
