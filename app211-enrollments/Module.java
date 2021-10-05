@@ -18,8 +18,11 @@ public class Module
      */
     public Module()
     {
-        // initialise instance variables
-        x = 0;
+        // initialise instance variables - when a certain variable is called
+        // it will return a particular objects data
+        this.code = code;
+        this.title = title;
+        this.value = value;
     }
 
     /**
