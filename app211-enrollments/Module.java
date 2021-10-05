@@ -48,4 +48,11 @@ public class Module
     {
         this.value = value;
     }
+    
+    public void print()
+    {
+        System.out.println("Module Code: " + code);
+        System.out.println("Module Title: " + title);
+        System.out.println("Credit Value: " + value);
+    }
 }
