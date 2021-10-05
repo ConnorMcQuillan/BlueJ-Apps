@@ -2,13 +2,16 @@
 /**
  * Write a description of class Module here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Connor McQuillan
+ * @version 1.0
  */
 public class Module
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    // instance variables - variables to store the code, title and credit 
+    // value of the module
+    private int code;
+    private String title;
+    private int value;
 
     /**
      * Constructor for objects of class Module
