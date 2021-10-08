@@ -1,28 +1,28 @@
 
 /**
- * Write a description of class Module here.
+ * This class contaisn the variables to store the module values and methods to retrieve and set them values.
  *
  * @author Connor McQuillan
- * @version 1.0
+ * @version 1.0 01/10/2021
  */
 public class Module
 {
     // instance variables - variables to store the code, title and credit 
     // value of the module
-    private String code;
-    private String title;
-    private int value;
+    public String code;
+    public String title;
+    public int creditValue;
 
     /**
      * Constructor for objects of class Module
      */
-    public Module(String code, String title, int value)
+    public Module(String code, String title)
     {
         // initialise instance variables - when a certain variable is called
         // it will return a particular objects data
         this.code = code;
         this.title = title;
-        this.value = value;
+        creditValue = 0;
     }
 
     /**
@@ -33,26 +33,29 @@ public class Module
      */
     public String getCode()
     {
-        return code;
+        return this.code;
     }
     public String getTitle()
     {
-        return title;
+        return this.title;
     }
-    public int getValue()
+    public int getCreditValue()
     {
-        return value;
+        return this.creditValue;
     }
     
-    public void setValue(int value)
+    public void setCreditValue(int value)
     {
-        this.value = value;
+        this.creditValue = value;
     }
     
     public void print()
     {
-        System.out.println("Module Code: " + code);
-        System.out.println("Module Title: " + title);
-        System.out.println("Credit Value: " + value);
+        //printHeading();
+        
+        System.out.println(" Module Code: " + code + ": " + title + ": " + creditValue);
+        System.out.println();
+        
     }
+    
 }
