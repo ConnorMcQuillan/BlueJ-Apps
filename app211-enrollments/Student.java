@@ -17,7 +17,7 @@ public class Student
     private Course course;
     
     /**
-     * Create a new student with a given name and ID number.
+     * This is the constructor for the student which assigns an ojbect private variables.
      */
     public Student(String name, int id)
     {
@@ -42,7 +42,7 @@ public class Student
     }
 
     /**
-     * This enrols student on a course
+     * Enrols the student on the course, allowing the print the students course details.
      * /
      */public void enrol(Course course)
     {

@@ -14,22 +14,17 @@ public class Module
     private int creditValue;
 
     /**
-     * Constructor for objects of class Module
+     * Constructor for objects of class Module which will be stored upon user input
      */
     public Module(String code, String title)
     {
-        // initialise instance variables - when a certain variable is called
-        // it will return a particular objects data
         this.code = code;
         this.title = title;
         creditValue = 0;
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * The next four methods are setters and getters for the modules instances variables.
      */
     public String getCode()
     {
@@ -43,12 +38,14 @@ public class Module
     {
         return this.creditValue;
     }
-    
     public void setCreditValue(int value)
     {
         this.creditValue = value;
     }
     
+    /**
+     * This print method prints the details of a module and also will be called when the course print method is called.
+     */
     public void print()
     {
         //printHeading();

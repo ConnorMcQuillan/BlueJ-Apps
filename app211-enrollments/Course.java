@@ -18,8 +18,7 @@ public class Course
     private Module module;
     
     /**
-     * Create a Course with a maximum number of enrolments. 
-     * All other details are set to unkown values.
+     * Create a course with a code and title variable.
      */
     public Course(String code, String title)
     {
@@ -27,15 +26,16 @@ public class Course
         this.title = title;
     }
 
-    //Adds module on to a course
+    /**
+     * Adds a module to the course class.
+     */
     public void addModule(Module module)
     {
         this.module = module;
     }
     
     /**
-     * Print the details of the course, the list
-     * of students enrolled and the module
+     * Print the details of the course and later on when a module is added, can print module details
      */
     public void print()
     {
@@ -47,7 +47,7 @@ public class Course
     }
     
     /**
-     * Print out the details of the course to the terminal.
+     * Print out a heading for the course and module details.
      */
     private void printHeading()
     {
