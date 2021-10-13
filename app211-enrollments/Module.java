@@ -9,9 +9,9 @@ public class Module
 {
     // instance variables - variables to store the code, title and credit 
     // value of the module
-    public String code;
-    public String title;
-    public int creditValue;
+    private String code;
+    private String title;
+    private int creditValue;
 
     /**
      * Constructor for objects of class Module
