@@ -18,7 +18,8 @@ public class Course
     private Module module;
     
     /**
-     * Create a course with a code and title variable.
+     * This is a constructor which will require a code and title variable
+     * for the course
      */
     public Course(String code, String title)
     {
@@ -27,7 +28,8 @@ public class Course
     }
 
     /**
-     * Adds a module to the course class.
+     * Adds a module to the course class, to later be able to print the module
+     * details attached to the course.
      */
     public void addModule(Module module)
     {
@@ -35,7 +37,8 @@ public class Course
     }
     
     /**
-     * Print the details of the course and later on when a module is added, can print module details
+     * Print the details of the course and later on when a module is added, 
+     * can print module details
      */
     public void print()
     {

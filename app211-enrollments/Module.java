@@ -14,7 +14,8 @@ public class Module
     private int creditValue;
 
     /**
-     * Constructor for objects of class Module which will be stored upon user input
+     * Constructor for objects of class Module which will be stored 
+     * upon user input
      */
     public Module(String code, String title)
     {
@@ -24,7 +25,8 @@ public class Module
     }
 
     /**
-     * The next four methods are setters and getters for the modules instances variables.
+     * The next four methods are setters and getters for the modules
+     * instances variables.
      */
     public String getCode()
     {
@@ -44,7 +46,8 @@ public class Module
     }
     
     /**
-     * This print method prints the details of a module and also will be called when the course print method is called.
+     * This print method prints the details of a module and also will
+     * be called when the course print method is called.
      */
     public void print()
     {

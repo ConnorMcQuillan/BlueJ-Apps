@@ -17,7 +17,8 @@ public class Student
     private Course course;
     
     /**
-     * This is the constructor for the student which assigns an ojbect private variables.
+     * This is the constructor for the student which assigns an object 
+     * private variables. Each object created must have a name and ID number
      */
     public Student(String name, int id)
     {
@@ -42,7 +43,8 @@ public class Student
     }
 
     /**
-     * Enrols the student on the course, allowing the print the students course details.
+     * Enrols the student on the course, later allowing the user to
+     * print the students course details.
      * /
      */public void enrol(Course course)
     {
@@ -50,7 +52,8 @@ public class Student
     }
     
     /**
-     * Print the student's name and ID number to the output terminal.
+     * A method that prints the student's name and ID number to 
+     * the output terminal.
      */
     public void print()
     {
@@ -58,7 +61,8 @@ public class Student
     }
     
     /**
-     * Print the course details
+     * A method that print the course details after the student has been 
+     * enrolled on the course. This method is called from the course class.
      */
     public void printCourse()
     {
