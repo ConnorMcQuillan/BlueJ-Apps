@@ -1,6 +1,7 @@
 
 /**
- * This class contaisn the variables to store the module values and methods to retrieve and set them values.
+ * This class contains the variables to store the module values and methods to
+ * retrieve and set them values.
  *
  * @author Connor McQuillan
  * @version 1.0 01/10/2021
