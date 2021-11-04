@@ -90,6 +90,10 @@ public class Course
      */
     public void printModules()
     {
-        System.out.println();
+        for (Module module : modules)
+        {
+            module.print();
+            module.printCredit();
+        }
     }
 }
